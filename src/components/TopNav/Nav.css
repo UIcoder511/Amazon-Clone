@@ -1,0 +1,44 @@
+.address__picker {
+  display: grid;
+  grid-template-areas:
+    "addicon addname"
+    "addicon select";
+  padding-right: 10px;
+  align-items: center;
+  row-gap: 2px;
+}
+
+.address__icon {
+  grid-area: addicon;
+  align-self: center;
+}
+
+.address__picker .add__name {
+  grid-area: addname;
+  align-self: flex-end;
+  font-weight: var(--fw-Medium);
+  line-height: var(--xs);
+}
+
+.address__picker span:nth-child(3) {
+  grid-area: select;
+  align-self: flex-start;
+  line-height: var(--sm);
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* justify-content: center; */
+  /* justify-self: center; */
+}
+
+.nav__link {
+  color: var(--white-l);
+  font-weight: var(--fw-Medium);
+  font-size: var(--sm);
+  line-height: var(--sm);
+  padding: 5px 8px;
+  /* align-self: center; */
+}

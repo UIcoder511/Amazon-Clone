@@ -1,0 +1,12 @@
+.bg__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -320px;
+  mask-image: linear-gradient(
+    to bottom,
+    black 40%,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.6),
+    transparent
+  );
+}
